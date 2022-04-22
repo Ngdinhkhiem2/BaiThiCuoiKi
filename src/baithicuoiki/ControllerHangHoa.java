@@ -20,6 +20,7 @@ public class ControllerHangHoa {
         int id = (ds.size() > 0) ? (ds.size() +1) : 1;
         System.out.println("Nhap ID");
         int maH = sc.nextInt();
+        sc.nextLine();
         System.out.println("Nhap Ten Hang Hoa: ");
         String tenHH = sc.nextLine();
         System.out.println("Nhap Don Gia Hang Hoa:");

@@ -59,9 +59,7 @@ public class DanhSachHangHoa {
                 System.out.println(hangHoa1);
                 break;
             }
-            else{
-                System.out.println("Hang Hoa Khong Ton Tai");
-            }
+           
         }
         return hangHoa1;
     }
